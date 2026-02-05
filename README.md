@@ -108,3 +108,7 @@ You can specify a custom rule file in `.latexmkrc`. This overrides the default f
 $BibCheckRules = 'my_lab_rules.conf';
 do './bibcop.pl';
 ```
+
+## License
+
+This script is distributed under the BSD 2-Clause License. See [LICENSE](LICENSE).
