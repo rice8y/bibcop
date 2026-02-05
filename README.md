@@ -18,7 +18,7 @@ Unlike `biber` or `bibtex`, which check for *syntax* errors, **BibCop checks for
 
 ### 1. Add the files
 
-Download `bibcop.pl` and `bibrules.conf` and place them in your project's root directory (next to `main.tex`).
+Download `bibcop.pl` and `bibrules.conf` (or `bblrules.conf`)  and place them in your project's root directory (next to `main.tex`).
 
 ### 2. Update `.latexmkrc`
 
@@ -36,9 +36,9 @@ do './bibcop.pl';
 
 **That's it!** Next time you compile, BibCop will patrol your citations.
 
-## Configuration (`bibrules.conf`)
+## Configuration
 
-You can define rules in `bibrules.conf`.
+You can define rules in `bibrules.conf` (or `bblrules.conf`).
 BibCop supports **Single-File Configuration**: you can write rules for both `.bib` and `.bbl` in the same file. The script automatically filters them based on the current mode.
 
 ### Syntax
